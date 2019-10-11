@@ -6,7 +6,8 @@ import Layout from "../Layout";
 import Dashboard from "../Dashboard";
 const theme = createMuiTheme({
   typography: {
-    fontFamily: ["Rubik", "sans-serif"]
+    fontFamily: ["Rubik", "sans-serif"].join(),
+    letterSpacing: '1.2px'
   }
 });
 

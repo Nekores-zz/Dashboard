@@ -4,14 +4,14 @@ import Inflow from "./Inflow";
 import Outflow from "./Outflow";
 import Wrapper from "./styles.js";
 
-export default props => {
+export default ({classes})=> {
   return (
     <Grid container spacing={4}>
       <Grid item xs={12} ms={12} md={12} lg={6}>
-        <Inflow />
+        <Inflow classes={classes} />
       </Grid>
       <Grid item xs={12} ms={12} md={12} lg={6}>
-        <Outflow />
+        <Outflow classes={classes} />
       </Grid>
     </Grid>
   );

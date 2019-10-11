@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Typography, CardContent } from "@material-ui/core";
 import Table from "../../../components/common/Table";
 
-export default () => {
+export default ({classes}) => {
   const columns = [
     { id: "name", label: "Name", minWidth: 170 },
     { id: "code", label: "ISO\u00a0Code", minWidth: 100 },
@@ -30,8 +30,8 @@ export default () => {
 
   return (
     <Card>
-      <CardContent>
-      <Typography component="p" variant="h6">
+      <CardContent className={classes.backgroundDark}>
+      <Typography component="p" variant="h6" className={classes.fontRegular}>
           Outflow
         </Typography>
       </CardContent>
