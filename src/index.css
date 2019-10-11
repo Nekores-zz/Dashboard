@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Rubik', sans-serif;
+}
+body, html, #root, .h-100 {
+  height: 100%;
+}
