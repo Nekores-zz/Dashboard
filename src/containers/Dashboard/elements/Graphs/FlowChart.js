@@ -1,5 +1,5 @@
 import React from "react";
-import BarChart from "../../../components/common/Chart/BarChart";
+import BarChart from "../../../../components/common/Chart/BarChart";
 
 const data = [
   {

@@ -1,21 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  Grid,
   Typography,
-  MenuList,
-  MenuItem,
   ListItemIcon
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import PeopleAltIcon from "@material-ui/icons/PeopleAlt";
 import DashboardIcon from "@material-ui/icons/Dashboard";
-import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
-import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
 import FormatIndentDecreaseIcon from '@material-ui/icons/FormatIndentDecrease';
 import FormatIndentIncreaseIcon from '@material-ui/icons/FormatIndentIncrease';
-import MenuIcon from '@material-ui/icons/Menu';
-import PaletteIcon from "@material-ui/icons/Palette";
 import DeckIcon from "@material-ui/icons/Deck";
 import SettingsIcon from "@material-ui/icons/Settings";
 import { Sidebar, Item, Menu, Toggler } from "./styles";
@@ -54,7 +47,7 @@ const routes = [
   }
 ];
 
-export default props => {
+export default () => {
   const classes = useStyles();
 
   const [toggle, setToggle] = useState(false);
@@ -72,7 +65,6 @@ export default props => {
       </Toggler>
       <Sidebar toggle={toggle}>
         <Menu>
-          {/* <div className="button-toggler">SLIDE Button</div> */}
           {routes.map(({ to, label, icon, active }, index) => (
             <Item key={index} active={active}>
               <Link to={to} className={classes.link}>

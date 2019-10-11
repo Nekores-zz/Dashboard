@@ -2,7 +2,6 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import Inflow from "./Inflow";
 import Outflow from "./Outflow";
-import Wrapper from "./styles.js";
 
 export default ({classes})=> {
   return (

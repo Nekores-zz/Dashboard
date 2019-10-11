@@ -62,7 +62,7 @@ const renderActiveShape = props => {
         textAnchor={textAnchor}
         fill="#333"
       >
-        {"Total" + " " + value}
+        {"Total " + value}
       </text>
       <text
         x={ex + (cos >= 0 ? 1 : -1) * 12}

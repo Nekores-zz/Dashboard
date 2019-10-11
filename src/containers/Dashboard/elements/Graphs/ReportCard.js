@@ -1,5 +1,5 @@
 import React from "react";
-import PieChart from "../../../components/common/Chart/PieChart"
+import PieChart from "../../../../components/common/Chart/PieChart"
 
 const data = [
     { name: 'Expenses', value: 900 },

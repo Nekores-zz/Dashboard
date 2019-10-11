@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Card, Typography } from "@material-ui/core";
 import FlowChart from "./FlowChart";
 import Report from "./ReportCard";
-import { GraphsWrapper } from "./styles";
+import { GraphsWrapper } from "../styles";
 
 export default ({classes}) => (
   <GraphsWrapper>

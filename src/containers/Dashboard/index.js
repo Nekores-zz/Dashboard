@@ -38,6 +38,7 @@ const useStyles = makeStyles(theme => ({
   },
   fontRegular: {
     fontWeight: 400,
+    letterSpacing: '1.2px'
   }
 }));
 

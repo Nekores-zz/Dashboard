@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Typography, Avatar } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 
 export default styled.div`
   padding: 30px;

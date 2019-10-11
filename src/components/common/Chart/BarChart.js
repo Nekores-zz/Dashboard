@@ -1,9 +1,8 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import {
   BarChart,
   Bar,
   ResponsiveContainer,
-  Cell,
   XAxis,
   YAxis,
   CartesianGrid,

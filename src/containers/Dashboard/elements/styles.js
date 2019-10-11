@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {Card} from '@material-ui/core'
 
 export default styled.div`
   height: ${props => (props.height ? props.height : "300px")};

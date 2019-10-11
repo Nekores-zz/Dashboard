@@ -3,7 +3,7 @@ import { Grid, Typography, Card, CardContent } from "@material-ui/core";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
-import { Price, Title } from "./styles";
+import { Price } from "./styles";
 
 export default props => {
   const labels = [
