@@ -39,6 +39,9 @@ const useStyles = makeStyles(theme => ({
   fontRegular: {
     fontWeight: 400,
     letterSpacing: '1.2px'
+  },
+  paddingX:{
+    padding: '50px 16px 40px 16px !important'
   }
 }));
 

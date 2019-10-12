@@ -13,10 +13,10 @@ export default ({classes}) => (
             Outflow vs Inflow
           </Typography>
         </Grid>
-        <Grid item xs={12} sm={12} md={12} lg={7}>
+        <Grid item xs={12} sm={12} md={12} lg={7} className={classes.paddingX} >
           <FlowChart />
         </Grid>
-        <Grid item xs={12} sm={12} md={12} lg={5}>
+        <Grid item xs={12} sm={12} md={12} lg={5} className={classes.paddingX} >
           <Report />
         </Grid>
       </Grid>
