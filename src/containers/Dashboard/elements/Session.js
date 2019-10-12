@@ -38,6 +38,7 @@ export default ({classes}) => {
                 label="Current Time"
                 value={selectedDate}
                 onChange={handleDateChange}
+                className={classes.widthFull}
                 KeyboardButtonProps={{
                   "aria-label": "change time"
                 }}
@@ -53,6 +54,7 @@ export default ({classes}) => {
                 label="Current Date"
                 value={selectedDate}
                 onChange={handleDateChange}
+                className={classes.widthFull}
                 KeyboardButtonProps={{
                   "aria-label": "change date"
                 }}
@@ -68,6 +70,7 @@ export default ({classes}) => {
                 label="Current Session"
                 value={selectedDate}
                 onChange={handleDateChange}
+                className={classes.widthFull}
                 KeyboardButtonProps={{
                   "aria-label": "change date"
                 }}
