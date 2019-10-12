@@ -7,7 +7,7 @@ export default props => (
   <Header>
     <Grid container justify="space-between">
       <Logo>
-        <EmojiNatureIcon color="white" style={{ fontSize: 30 }} /> Mui-Theme
+        <EmojiNatureIcon style={{ fontSize: 30 }} /> Mui-Theme
       </Logo>
       <User>
         John Doe

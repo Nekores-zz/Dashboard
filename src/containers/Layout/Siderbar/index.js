@@ -24,25 +24,25 @@ const routes = [
   {
     to: "/",
     label: "Dashboard",
-    icon: <DashboardIcon color="" style={{ fontSize: "24" }} />,
+    icon: <DashboardIcon style={{ fontSize: "24" }} />,
     active: true
   },
   {
     to: "/",
     label: "Users",
-    icon: <PeopleAltIcon color="" style={{ fontSize: "24" }} />,
+    icon: <PeopleAltIcon style={{ fontSize: "24" }} />,
     active: false
   },
   {
     to: "/",
     label: "Stores",
-    icon: <DeckIcon color="" style={{ fontSize: "24" }} />,
+    icon: <DeckIcon style={{ fontSize: "24" }} />,
     active: false
   },
   {
     to: "/",
     label: "Settings",
-    icon: <SettingsIcon color="" style={{ fontSize: "24" }} />,
+    icon: <SettingsIcon style={{ fontSize: "24" }} />,
     active: false
   }
 ];

@@ -20,10 +20,10 @@ export default ({classes}) => {
     { name: "India", code: "IN", population: 1324171354 },
     { name: "United State", code: "US", population: 1324171354 },
     { name: "England", code: "EN", population: 1324171354 },
-    { name: "Pakistan", code: "PK", population: 1324171354 },
-    { name: "India", code: "IN", population: 1324171354 },
-    { name: "United State", code: "US", population: 1324171354 },
-    { name: "England", code: "EN", population: 1324171354 },
+    { name: "Pakistan", code: "PK1", population: 1324171354 },
+    { name: "India", code: "IN1", population: 1324171354 },
+    { name: "United State", code: "US1", population: 1324171354 },
+    { name: "England", code: "EN1", population: 1324171354 },
   ];
 
   return (
